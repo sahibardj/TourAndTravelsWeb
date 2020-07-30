@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>	</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+<?php include 'menu.php'; ?>
+
+ <div class="jumbotron">
+  <h1>Vasco da Gama Travels.</h1>
+  <p>Explore the World With Us</p>
+</div>
+<section class="my-5">
+	<div class="py-3">
+		<h2 class="text-center"> Contact </h2>
+	</div>
+	<div class="w-50 m-auto">
+		<form action="userinfo.php" method="post">
+			<div class="form-group">
+				<label> Name </label>
+				<input type="text" name="user" class="form-control" required/>
+			</div>
+			<div class="form-group">
+				<label> Email ID </label>
+				<input type="text" name="email" class="form-control" required/>
+			</div>
+			<div class="form-group">
+				<label> Phone </label>
+				<input type="text" name="phone" class="form-control" required/>
+			</div>
+			<div class="form-group">
+				<label> Subject </label>
+				<input type="text" name="subject" class="form-control" required/>
+			</div>
+			<div class="form-group">
+				<label> Comments</label>
+				<textarea class="form-control" name="comments">
+					
+				</textarea>
+			</div>
+			  <button type="submit" class="btn btn-success">Submit</button>
+		</form>
+		<br>
+		<br>
+		<h3>Contact Us:</h3>
+<label>Mobile:7575984256</label><br>
+<label>Email:vascodagamatravels@gmail.com</label><br>
+<label>Fax:0325-676785</label><br>
+	</div>
+
+
+
+
+</section>
+ <footer>
+  <p class="p-3 bg-dark text-white text-center">@VascodaGamaTravels</p>
+</footer>
+</body>
+</html>
